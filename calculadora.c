@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 #include "function_multiplicar.c"
@@ -42,12 +43,12 @@ int main() {
                 break;
 
             case 3:
-                resultado = divida(num1, num2);
+                resultado = dividir(num1, num2);
                 printf("Resultado: %d\n", resultado);
                 break;
 
             case 4:
-                resultado = multiplique(num1, num2);
+                resultado = multiplicar(num1, num2);
                 printf("Resultado: %d\n", resultado);
                 break;
 
@@ -60,7 +61,7 @@ int main() {
 
     } while (continuar == 's' || continuar == 'S');
 
-    printf("Criado por davi sales\n");
+    printf("Criado por Davi Sales\n");
 
     return 0;
 }
