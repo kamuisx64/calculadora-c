@@ -1,4 +1,5 @@
-int divida(int a, int b) {
+
+int dividir(int a, int b) {
 
     if (b == 0) {
         return 0;
