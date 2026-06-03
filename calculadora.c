@@ -60,7 +60,7 @@ int main() {
 
     } while (continuar == 's' || continuar == 'S');
 
-    printf("Feito por Filipe Sousa de Lima\n");
+    printf("Criado por davi sales\n");
 
     return 0;
 }
