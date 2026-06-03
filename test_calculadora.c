@@ -1,4 +1,6 @@
+// test_calculadora.c
 #include <assert.h>
+#include <stdio.h>
 
 #include "function_multiplicar.c"
 #include "function_dividir.c"
@@ -13,6 +15,7 @@ int main() {
     assert(dividir(99,3) == 33);
     assert(dividir(144,12) == 12);
 
-    printf("Criado por davi sales\n");
+    printf("Criado por Davi Sales\n");
+
     return 0;
 }
