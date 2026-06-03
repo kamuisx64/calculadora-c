@@ -1,4 +1,4 @@
-// test_calculadora.c
+
 #include <assert.h>
 #include <stdio.h>
 
